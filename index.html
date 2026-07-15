@@ -2,51 +2,98 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Aldo Bojorquez | QA Engineer</title>
-                <style>
-                        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-                                .header { text-align: center; }
-                                        .foto { width: 200px; border-radius: 10px; }
-                                                h1 { color: #00C851; } /* Verde como Diego */
-                                                        h2 { color: #333; }
-                                                                .boton { background: black; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
-                                                                        .boton-blanco { background: white; color: black; border: 1px solid black; }
-                                                                                .badge { background: #f0f0f0; padding: 5px 10px; margin: 5px; display: inline-block; border-radius: 5px; }
-                                                                                    </style>
-                                                                                    </head>
-                                                                                    <body>
-                                                                                        <div class="header">
-                                                                                                <h3>🧪 Aldo Bojorquez.</h3>
-                                                                                                        <img src="tu-foto.jpg" alt="Aldo Bojorquez" class="foto">
-                                                                                                                <h1>QA Engineer<br>Data-Driven Quality.</h1>
-                                                                                                                        <p>QA ENGINEER | MANUAL TESTING | API TESTING</p>
-                                                                                                                                <p>Ingeniero en Sistemas con 8 años de experiencia resolviendo incidencias. Especializado en Postman, JIRA y pruebas de API para asegurar software de calidad.</p>
-                                                                                                                                        <a href="#proyectos" class="boton">Ver Proyectos</a>
-                                                                                                                                                <a href="https://linkedin.com/in/aldo-bojorquez" class="boton boton-blanco">LinkedIn</a>
-                                                                                                                                                    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldo Bojorquez | QA Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <div class="nav">
+            <h3>🧪 Aldo Bojorquez.</h3>
+        </div>
+    </header>
 
-                                                                                                                                                        <h2 id="sobre-mi">QA Engineer & Problem Solver</h2>
-                                                                                                                                                            <p>Soy Ingeniero en Sistemas con 8 años de experiencia en soporte y calidad. Mi enfoque: encontrar bugs antes que el usuario. <b>Resultado reciente: 92% en Problem Solving Assessment.</b></p>
-                                                                                                                                                                
-                                                                                                                                                                    <h3>Lo que aporto:</h3>
-                                                                                                                                                                        ✅ <b>QA Manual:</b> Casos de prueba, reportes en JIRA, testing exploratorio.<br>
-                                                                                                                                                                            ✅ <b>API Testing:</b> Postman, validación de endpoints, status codes.<br>
-                                                                                                                                                                                ✅ <b>Mentalidad de Usuario:</b> 8 años calmando clientes enojados = sé dónde duele.<br>
+    <main class="container">
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <img src="img/aldo-foto.jpg" alt="Aldo Bojorquez QA Engineer" class="foto-perfil">
+            <h1 class="titulo-principal">
+                QA Engineer<br>
+                <span class="texto-gris">Data-Driven Quality.</span>
+            </h1>
+            <p class="subtitulo">QA ENGINEER | MANUAL TESTING | API TESTING</p>
+            <p class="descripcion">
+                Ingeniero en Sistemas con 8 años de experiencia resolviendo incidencias y calidad en servicio. 
+                Especializado en Postman, JIRA y pruebas de API para asegurar software robusto y confiable.
+            </p>
+            <div class="botones">
+                <a href="#proyectos" class="btn btn-negro">Ver Proyectos</a>
+                <a href="https://linkedin.com/in/aldo-bojorquez" target="_blank" class="btn btn-blanco">LinkedIn</a>
+            </div>
+        </section>
 
-                                                                                                                                                                                    <h2>Mi Caja de Herramientas</h2>
-                                                                                                                                                                                        <span class="badge">JIRA</span>
-                                                                                                                                                                                            <span class="badge">POSTMAN</span>
-                                                                                                                                                                                                <span class="badge">SQL</span>
-                                                                                                                                                                                                    <span class="badge">PYTHON</span>
+        <!-- SOBRE MI -->
+        <section class="seccion">
+            <p class="etiqueta-verde">SOBRE MÍ</p>
+            <h2>QA Engineer & Problem Solver</h2>
+            <p>
+                Mi enfoque: encontrar bugs antes que el usuario. Durante 8 años gestioné sistemas y atención a clientes bajo presión. 
+                Eso me dio un ojo clínico para detectar fallos y comunicarlos claro a devs.
+                <b>Resultado reciente: 92% en Problem Solving Assessment de BCM.</b>
+            </p>
+            
+            <h3>Lo que aporto:</h3>
+            <ul class="lista-check">
+                <li><b>QA Manual:</b> Casos de prueba, testing exploratorio, reportes detallados en JIRA.</li>
+                <li><b>API Testing:</b> Postman, validación de endpoints, status codes, contratos JSON.</li>
+                <li><b>Mentalidad de Usuario:</b> 8 años calmando clientes enojados = sé exactamente dónde duele.</li>
+            </ul>
+        </section>
 
-                                                                                                                                                                                                        <h2 id="proyectos">PORTAFOLIO DESTACADO</h2>
-                                                                                                                                                                                                            <h3>API Testing con Postman</h3>
-                                                                                                                                                                                                                <p>Diseñé 50 casos de prueba para API pública. Validé status codes, contratos y tiempos de respuesta. 10 bugs encontrados.</p>
-                                                                                                                                                                                                                    <a href="https://github.com/aldo-bojorquez/api-testing">Ver Código en GitHub →</a>
+        <!-- HERRAMIENTAS -->
+        <section class="seccion fondo-negro">
+            <h2 class="texto-blanco">Mi Caja de Herramientas</h2>
+            <div class="badges">
+                <span class="badge">JIRA</span>
+                <span class="badge">POSTMAN</span>
+                <span class="badge">SQL</span>
+                <span class="badge">PYTHON</span>
+                <span class="badge">EXCEL</span>
+                <span class="badge">SELENIUM</span>
+            </div>
+        </section>
 
-                                                                                                                                                                                                                        <h3>¿Listo para mejorar la calidad de tu software?</h3>
-                                                                                                                                                                                                                            <p>Busco oportunidades como QA Engineer donde pueda combinar mi experiencia en soporte + testing.</p>
-                                                                                                                                                                                                                                <a href="mailto:aldo.bojorquez.qa@gmail.com" class="boton">aldo.bojorquez.qa@gmail.com</a>
-                                                                                                                                                                                                                                </body>
-                                                                                                                                                                                    </html>
+        <!-- PROYECTOS -->
+        <section class="seccion" id="proyectos">
+            <p class="etiqueta-verde">PORTAFOLIO DESTACADO</p>
+            <h2>API Testing - Plataforma de Scooters</h2>
+            <span class="tag-proyecto">POSTMAN</span>
+            
+            <p><b>Caso práctico basado en TripleTen:</b> Urban Scooter necesitaba validar su API antes del lanzamiento.</p>
+            
+            <p>Diseñé una suite de 50 casos de prueba cubriendo endpoints críticos de reserva y cancelación. Validé status codes, contratos JSON y tiempos de respuesta <2s.</p>
+            
+            <ul class="lista-check">
+                <li><b>10 bugs encontrados</b> y documentados en JIRA con pasos reproducibles</li>
+                <li><b>100% de endpoints críticos cubiertos</b> incluyendo casos negativos</li>
+                <li><b>Valor agregado:</b> Sumé 15 casos de seguridad que no venían en el curso base</li>
+            </ul>
+            
+            <a href="https://github.com/aldo-bojorquez/api-testing-scooter" class="link-verde">Ver Código en GitHub →</a>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="seccion centrado">
+            <h2>¿Listo para mejorar la calidad de tu software?</h2>
+            <p>Busco oportunidades como QA Engineer donde pueda combinar mi experiencia en soporte + testing para garantizar calidad desde el diseño.</p>
+            <a href="mailto:aldo.bojorquez.qa@gmail.com" class="btn btn-negro">aldo.bojorquez.qa@gmail.com</a>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <p>© 2026 Aldo Bojorquez. Hosted on GitHub Pages.</p>
+    </footer>
+</body>
+</html>
