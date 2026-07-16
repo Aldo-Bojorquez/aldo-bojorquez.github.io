@@ -33,7 +33,7 @@ body {
     height: 120px;
     border-radius: 12px;
     object-fit: cover;
-    border: 3px solid #38BDF8; /* Cyan accent */
+    box-shadow: 3px #0F172A; /* Cyan accent */
     margin-bottom: 20px;
 }
 
