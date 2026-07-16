@@ -204,12 +204,8 @@ h2 {
     }
 }
 /* ARREGLA EL BOTÓN QUE SE ENCIMA EN MOBILE */
-.contacto {
-    text-align: center; /* Ya lo tienes */
-}
-
 .contacto p {
-    margin-bottom: 25px; /* ESTA ES LA CLAVE: separa el texto del botón */
+    margin-bottom: 25px; 
 }
 
 .btn-principal {
