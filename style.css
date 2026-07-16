@@ -184,6 +184,8 @@ h2 {
 }
 
 .contacto {
+    display:flex;
+    flex-direction: column;
     background: #1E293B;
     padding: 40px;
     border-radius: 12px;
