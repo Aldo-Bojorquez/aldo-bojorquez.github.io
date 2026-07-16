@@ -203,3 +203,26 @@ h2 {
         padding: 40px 20px;
     }
 }
+/* ARREGLA EL BOTÓN QUE SE ENCIMA EN MOBILE */
+.contacto {
+    text-align: center; /* Ya lo tienes */
+}
+
+.contacto p {
+    margin-bottom: 25px; /* ESTA ES LA CLAVE: separa el texto del botón */
+}
+
+.btn-principal {
+    display: inline-block; /* Asegura que respete el margin */
+}
+
+/* Ajuste extra solo para celular */
+@media (max-width: 600px) {
+    .contacto {
+        padding: 30px 20px; /* Más espacio arriba/abajo en mobile */
+    }
+    
+    .contacto h2 {
+        font-size: 28px; /* Título menos gigante en celular */
+    }
+}
