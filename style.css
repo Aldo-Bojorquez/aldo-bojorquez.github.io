@@ -86,6 +86,7 @@ body {
 }
 
 .btn-principal {
+    margin-top: 10px;
     background: #38BDF8;
     color: #0F172A;
 }
