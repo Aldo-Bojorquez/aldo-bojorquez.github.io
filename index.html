@@ -10,24 +10,20 @@
     <div class="layout">
         <!-- SIDEBAR IZQUIERDA -->
         <aside class="sidebar">
-            <img src="img/aldo.jpg" alt="Aldo Bojorquez" class="avatar">
-            <h1>Aldo Bojorquez</h1>
-            <p class="tagline">QA Engineer</p>
-            
+            <div class="perfil">
+                <img src="img/aldo.jpg" alt="Aldo Bojorquez" class="avatar">
+                <h1>Aldo Bojorquez</h1>
+                <p class="tagline">QA Engineer</p>
+            </div>           
             <div class="stats">
                 <div class="stat">
                     <span class="numero">92%</span>
                     <span class="label">Problem Solving</span>
                 </div>
                 <div class="stat">
-                    <span class="numero">8+</span>
+                    <span class="numero">2+</span>
                     <span class="label">Años IT</span>
                 </div>
-            </div>
-
-            <div class="botones">
-                <a href="https://github.com/Aldo-Bojorquez" target="_blank" class="btn btn-principal">GitHub</a>
-                <a href="https://linkedin.com/in/aldo-bojorquez" target="_blank" class="btn btn-secundario">LinkedIn</a>
             </div>
 
             <div class="skills">
@@ -45,38 +41,79 @@
         <main class="contenido">
             <section class="intro">
                 <h2>QA Engineer enfocado en calidad</h2>
-                <p>Ingeniero en Sistemas con 8 años resolviendo incidencias en soporte. Ahora especializado en QA Manual y pruebas de API para asegurar software robusto. Mi fortaleza: entender el negocio + romper el sistema antes que el usuario.</p>
+                <p>Ingeniero en Sistemas con 2 años resolviendo incidencias en soporte. Ahora especializado en QA Manual y pruebas de API para asegurar software robusto. Mi fortaleza: entender el negocio + romper el sistema antes que el usuario.</p>
             </section>
 
             <section class="proyectos">
                 <h2>Proyectos Destacados</h2>
                 
+                <!-- Card 1 - Urban Routes -->
                 <div class="card">
-                    <h3>API Testing | E-commerce</h3>
-                    <p>Colección de 40+ requests en Postman validando endpoints de login, carrito y pagos. Documenté 12 bugs críticos de status codes y validación de datos.</p>
-                    <div class="tech">Postman · REST API · Newman</div>
-                    <a href="#" class="link-proyecto">Ver en GitHub →</a>
+                    <img src="img/urban-routes.jpg" alt="Urban Routes App" class="card-img">
+                    <div class="card-content">
+                    <h3>Urban Routes | E2E Testing App de Transporte</h3>
+                    <p>Pruebas manuales E2E para app de transporte. Creé 80+ casos de prueba, checklist y reporté 15 bugs en JIRA. Validación de flujos de pedir taxi, costos y tiempos.</p>
+                    <div class="card-tech">
+                        <span>Manual Testing</span>
+                        <span>JIRA</span>
+                        <span>Test Cases</span>
+                        <span>Checklist</span>
+                    </div>
+                    <div class="card-links">
+                        <a class="btn" href="#" target="_blank">Ver Documentación →</a>
+                        <a class="btn" href="#" target="_blank">GitHub</a>
+                    </div>
+                    </div>
                 </div>
 
+                <!-- Card 2 - Urban Grocers API -->
                 <div class="card">
-                    <h3>Test Cases | App Bancaria</h3>
-                    <p>50 casos de prueba manual para módulo de transferencias. Cobertura de flujos críticos, casos borde y pruebas negativas. Ejecutado con JIRA + Zephyr.</p>
-                    <div class="tech">JIRA · Zephyr · TestRail</div>
-                    <a href="#" class="link-proyecto">Ver Documentación →</a>
+                    <img src="img/urban-grocers.jpg" alt="Urban Grocers API" class="card-img">
+                    <div class="card-content">
+                    <h3>Urban Grocers | API Testing</h3>
+                    <p>Colección de 40+ requests en Postman para validar creación de kits, usuarios y pedidos. Pruebas de status codes, validación de JSON schema y casos negativos.</p>
+                    <div class="card-tech">
+                        <span>Postman</span>
+                        <span>REST API</span>
+                        <span>SQL</span>
+                        <span>Newman</span>
+                    </div>
+                    <div class="card-links">
+                        <a class="btn" href="#" target="_blank">Ver en Postman →</a>
+                        <a class="btn" href="#" target="_blank">GitHub</a>
+                    </div>
+                    </div>
                 </div>
 
-                <div class="card">
-                    <h3>Automatización Básica | Login</h3>
-                    <p>Script en Cypress para validar flujo de login con 5 escenarios: credenciales válidas, inválidas, campos vacíos y bloqueo por intentos.</p>
-                    <div class="tech">Cypress · JavaScript</div>
-                    <a href="#" class="link-proyecto">Ver Código →</a>
+            <!-- Card 3 - QA Automation -->
+            <div class="card">
+                <img src="img/automation.jpg" alt="Automatización" class="card-img">
+                <div class="card-content">
+                <h3>Automatización de Pruebas | Web App</h3>
+                <p>Automatización básica con Selenium WebDrive para flujo de login y creación de pedidos. 10 escenarios automatizados incluyendo casos borde y validación de local storage.</p>
+                <div class="card-tech">
+                    <span>Selenium WebDrive</span>
+                    <span>JIRA</span>
                 </div>
+                <div class="card-links">
+                    <a class="btn" href="#" target="_blank">Ver Código →</a>
+                    <a class="btn" href="#" target="_blank">Demo</a>
+                </div>
+                </div>
+            </div>
+
             </section>
 
             <section class="contacto">
-                <h2>¿Trabajamos juntos?</h2>
-                <p>Abierto a posiciones remotas como QA Manual / API Tester. Si mi perfil hace match, mándame mensaje.</p>
-                <a href="aldo.bojorquez.qa@gmail.com" class="btn btn-principal">Contáctame</a>
+                <div class="info">
+                    <h2>¿Trabajamos juntos?</h2>
+                    <p>Abierto a posiciones remotas como QA Manual / API Tester. Si mi perfil hace match, mándame mensaje.</p>
+                </div>
+                <div class="botones">
+                    <a href="https://github.com/Aldo-Bojorquez" target="_blank" class="btn">GitHub</a>
+                    <a href="https://linkedin.com/in/aldo-bojorquez" target="_blank" class="btn">LinkedIn</a>
+                    <a href="aldo.bojorquez.qa@gmail.com" class="btn btn-principal">Contáctame</a>
+                </div>
             </section>
         </main>
     </div>
