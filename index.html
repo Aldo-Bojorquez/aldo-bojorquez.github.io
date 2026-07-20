@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aldo Bojorquez | QA Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" 
+    integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="layout">
@@ -60,7 +63,6 @@
                         <span>Checklist</span>
                     </div>
                     <div class="card-links">
-                        <a class="btn" href="#" target="_blank">Ver Documentación →</a>
                         <a class="btn" href="#" target="_blank">GitHub</a>
                     </div>
                     </div>
@@ -68,20 +70,29 @@
 
                 <!-- Card 2 - Urban Grocers API -->
                 <div class="card">
-                    <img src="img/urban-grocers.jpg" alt="Urban Grocers API" class="card-img">
+                    <div class="card-slider">
+                        <div class="img-slider">
+                            <img src="img/Urban_Grocer_1.png" class="card-img">
+                            <img src="img/Urban_Grocer_2.png" class="card-img">
+                            <img src="img/Urban_Grocer_3.png" class="card-img">
+                        </div>
+                        <div class="btn-slider">
+                            <i class="fa-solid fa-angles-left"></i>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </div>
+                    </div>
                     <div class="card-content">
-                    <h3>Urban Grocers | API Testing</h3>
-                    <p>Colección de 40+ requests en Postman para validar creación de kits, usuarios y pedidos. Pruebas de status codes, validación de JSON schema y casos negativos.</p>
-                    <div class="card-tech">
-                        <span>Postman</span>
-                        <span>REST API</span>
-                        <span>SQL</span>
-                        <span>Newman</span>
-                    </div>
-                    <div class="card-links">
-                        <a class="btn" href="#" target="_blank">Ver en Postman →</a>
-                        <a class="btn" href="#" target="_blank">GitHub</a>
-                    </div>
+                        <h3>Urban Grocers | API Testing</h3>
+                        <p>Colección de 40+ requests en Postman para validar creación de kits, usuarios y pedidos. Pruebas de status codes, validación de JSON schema y casos negativos.</p>
+                        <div class="card-tech">
+                            <span>Postman</span>
+                            <span>REST API</span>
+                            <span>SQL</span>
+                            <span>Newman</span>
+                        </div>
+                        <div class="card-links">
+                            <a class="btn" href="https://github.com/Aldo-Bojorquez/qa-project-Urban-Grocers-app-es" target="_blank">GitHub</a>
+                        </div>
                     </div>
                 </div>
 
@@ -96,7 +107,6 @@
                     <span>JIRA</span>
                 </div>
                 <div class="card-links">
-                    <a class="btn" href="#" target="_blank">Ver Código →</a>
                     <a class="btn" href="#" target="_blank">Demo</a>
                 </div>
                 </div>
@@ -117,5 +127,6 @@
             </section>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
