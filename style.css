@@ -188,6 +188,15 @@ h2 {
     margin-bottom: 15px;
 }
 
+.card-tech span {
+    display: inline-block;
+    background-color: #334155;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 .link-proyecto {
     color: #38BDF8;
     text-decoration: none;
@@ -208,11 +217,13 @@ h2 {
 }
 
 /*Slider de los proyectos*/
-.card-slider {
+.card-slider-1, .card-slider-2, .card-slider-3, .card-slider-4 {
     overflow: hidden;
     position: relative;
     margin-bottom: 20px;
     width: 100%;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .img-slider {
@@ -255,6 +266,12 @@ h2 {
 }
 .btn-slider i:hover{
     background-color: rgba(255, 255, 255, 0.3);
+}
+.card-slider-1 div i, .card-slider-3 div i{
+    color: black;    
+}
+.card-slider-1 div i:hover, .card-slider-3 div i:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* RESPONSIVE */
